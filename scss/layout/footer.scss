@@ -1,0 +1,25 @@
+.footer_ul{
+    .footer_li{
+        position: relative;
+        padding-right: 60px;
+    }
+    .footer_li::after{
+        content: "";
+        width: 2PX;
+        height: 100%;
+        position: absolute;
+        display: block;
+        background: red;
+        top: 0;
+        left: 43px;
+    }
+
+    li{
+        font-size: 25px;
+        color: darkblue;
+    }
+
+    padding: 30px 0px ;
+    display: flex;
+    align-items: center;
+}

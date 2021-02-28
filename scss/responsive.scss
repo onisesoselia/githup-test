@@ -1,0 +1,36 @@
+@media screen and (max-width:1200px){
+    .header_{
+        background: chartreuse;
+    }
+        body{
+            color: red;
+        }
+   }
+   
+   @media screen and (max-width:991.8px){
+       .hero_img .hero_ul{
+           font-size: 20px;
+       }
+       .featured_wrapper{
+           margin: 10px 0px 0px 0px;
+       }
+   }
+   
+   @media screen and (max-width:767.8px){
+       .hero_img .hero_ul{
+           font-size: 15px;
+       }
+   }
+   
+   @media screen and (max-width:576px){
+       .hero_img .hero_ul{
+           display: none;
+       }
+   }
+   
+   @media screen and (max-width:371px){
+       .featured_wrapper .featured_box .featured_img {
+           width: 400px;
+       }
+   }
+   

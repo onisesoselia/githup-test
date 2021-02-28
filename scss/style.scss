@@ -1,0 +1,16 @@
+@import "./partials/reset.scss";
+@import "./partials/fonts.scss";
+
+// base scss
+@import "./moduls/base.scss";
+// import pages component
+@import "./layout/header.scss";
+
+@import "./page/home/hero_section.scss";
+@import "./page/home/featured_section.scss";
+
+@import "./layout/footer.scss";
+
+
+
+@import "./responsive.scss";
